@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>お問合せ</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>お問合せ</h1>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../../my_portfolio.html">ホーム</a></li>
+                    <li><a href="toiawase_form.html">問合せ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contact_form">
+                <h2>お問合せはこちら</h2>
+                <form action="#" method="post">
+                    <label for="name">名前:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">メールアドレス:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="purpose">目的：</label>
+                    <select name="purpose">
+                        <option value="not_choice">未選択</option>
+                        <option value="ricruit">リクルート</option>
+                        <option value="question">質問</option>
+                        <option value="job_request">仕事依頼</option>
+                        <option value="other">その他</option>
+                    </select><br>
+
+                    <label for="message">メッセージ:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">送信</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy;2025 私のポートフォリオ</p>
+        </footer>
+    </body>
+
+</html>

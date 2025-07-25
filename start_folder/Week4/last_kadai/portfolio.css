@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: rgb(161, 229, 228);
+}
+
+header {
+    background-color: rgb(8, 8, 183);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nav_list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav_list li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav_list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.my_image {
+    width: 200px;
+    border: 2px solid #2843cda4;
+}
+
+.skills {
+    background-color: rgb(193, 225, 244);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.skill_list {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.skill_list li {
+    background-color: #2333e4a4;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.portfolio {
+    background-color: rgb(193, 225, 244);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.portfolio h2 {
+    border-bottom: 3px solid #007bff;
+    display: inline-block; /*要素をブロック化*/
+    padding-bottom: 5px;
+}
+
+.portfolio_img{
+    display: flex; /*要素を横並びに*/
+    justify-content: center; /*横方向で中央揃え*/
+    gap: 20px; /*それぞれの要素同士の間隔を設定*/
+    margin-top: 20px;
+}
+
+.portfolio_img img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid blueviolet;
+    background-color: white;
+}
+
+.contact_form {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(51, 46, 209);
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(8, 8, 183);
+    color: white;
+    margin-top: 30px;
+    font-weight: bold;
+}
