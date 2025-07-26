@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    background-color: rgb(161, 229, 228);
+    background-color: rgb(215, 249, 220);
 }
 
 header {
-    background-color: rgb(8, 8, 183);
+    background-color: rgb(33, 121, 3);
+    font-family: serif;
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -33,16 +34,17 @@ header {
 main {
     padding: 30px;
     text-align: center;
+    font-family: sans-serif;
     background-color: white;
 }
 
 .my_image {
     width: 200px;
-    border: 2px solid #2843cda4;
+    border: 2px solid #067227a4;
 }
 
 .skills {
-    background-color: rgb(193, 225, 244);
+    background-color: rgb(193, 244, 196);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -55,7 +57,7 @@ main {
 }
 
 .skill_list li {
-    background-color: #2333e4a4;
+    background-color: #046b04a4;
     color: white;
     padding: 10px;
     margin: 5px 0;
@@ -65,29 +67,33 @@ main {
 }
 
 .portfolio {
-    background-color: rgb(193, 225, 244);
+    background-color: rgb(193, 244, 196);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
 
 .portfolio h2 {
-    border-bottom: 3px solid #007bff;
-    display: inline-block; /*要素をブロック化*/
+    border-bottom: 3px solid #045b1f;
+    display: inline-block;
+    /*要素をブロック化*/
     padding-bottom: 5px;
 }
 
-.portfolio_img{
-    display: flex; /*要素を横並びに*/
-    justify-content: center; /*横方向で中央揃え*/
-    gap: 20px; /*それぞれの要素同士の間隔を設定*/
+.portfolio_img {
+    display: flex;
+    /*要素を横並びに*/
+    justify-content: center;
+    /*横方向で中央揃え*/
+    gap: 20px;
+    /*それぞれの要素同士の間隔を設定*/
     margin-top: 20px;
 }
 
 .portfolio_img img {
     width: 200px;
     height: 150px;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(2, 71, 15);
     background-color: white;
 }
 
@@ -109,19 +115,29 @@ button {
 }
 
 button {
-    background-color: rgb(51, 46, 209);
+    background-color: rgb(26, 119, 19);
     color: rgb(255, 255, 255);
     padding: 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
+    font-weight: bold;
+}
+
+.work_list {
+    list-style: none;
+}
+
+.work_list a {
+    text-decoration: none;
+    color:black
 }
 
 footer {
     text-align: center;
     padding: 15px;
-    background-color: rgb(8, 8, 183);
+    background-color: rgb(33, 121, 3);
     color: white;
     margin-top: 30px;
     font-weight: bold;
