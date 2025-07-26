@@ -1,8 +1,8 @@
 // 下記コードを1_3.jsファイルにコピペし、正しい結果が得られるようにコードを修正してください。
 
-const getTotalPrice = (a, b) => { return a * b; };
+const getTotalPrice = (price, quantity) => { return price * quantity; };
 
-const addTax = a => { return a * 1.1; };
+const addTax = total => { return total * 1.1; };
 
 const total = getTotalPrice(1000, 2); // → 2000
 
