@@ -131,21 +131,42 @@ button {
 
 .work_list a {
     text-decoration: none;
-    color:black
+    color: black
 }
 
-.calculate{
+.calculate {
     max-width: 300px;
     margin: auto;
     border: 3px green solid;
     border-radius: 10px;
     background-color: #d8f5e1;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.calculate input{
+.calculate input {
     width: 100px;
     margin: auto;
+}
+
+.githubsearch {
+    max-width: 400px;
+    margin: auto;
+    border: 3px green solid;
+    border-radius: 10px;
+    background-color: #d8f5e1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.githubsearch input{
+    width: 300px;
+    margin: auto;
+}
+
+.githubsearch button{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
